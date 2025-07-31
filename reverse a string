@@ -1,0 +1,27 @@
+//Reverse a string
+
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main() {
+    string str, reversed = "";
+
+    cout << "Enter a string: ";
+    cin >> str;  
+
+    int n = str.length();
+
+    for (int i = n - 1; i >= 0; i--) {
+        reversed = reversed + str[i]; 
+    }
+
+    cout << "Reversed string: " << reversed << endl;
+
+    return 0;
+}
+
+Expected output :
+
+Enter a string : Mantavya
+reversed = ayvatnaM
