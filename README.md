@@ -2,6 +2,7 @@
 
 AIM : Usage of array and string in c++
 
+
 SOFTWARE USED : VS CODE
 
 THEORY : 
