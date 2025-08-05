@@ -42,7 +42,7 @@ An **array** is a data structure that stores multiple values of the **same data 
 - Stacks & Queues  
 
 
-# ✨ STRINGS IN C++
+# STRINGS IN C++
 
 **Definition:**  
 A **string** is a sequence of characters used to represent textual data.
@@ -74,115 +74,80 @@ A **string** is a sequence of characters used to represent textual data.
 
 
 
+# 📝 ALGORITHMS
 
+---
 
+## 1️⃣ Reverse the Array
 
-ALGORITHMS : 
+**Algorithm:**
 
-1. Reverse the Array
-   
-Algorithm:
+**Step 1:** Start  
+**Step 2:** Declare `arr[50]`, `num`, `temp`  
+**Step 3:** Input number of elements → `num`  
+**Step 4:** Input `num` elements into `arr`  
+**Step 5:** Print the original array  
+**Step 6:** Set `i = 0`, `j = num - 1`  
+**Step 7:** While `i < j`:  
+  a. Swap `arr[i]` and `arr[j]` using `temp`  
+  b. Increment `i` and decrement `j`  
+**Step 8:** Print the reversed array  
+**Step 9:** Stop  
 
-Step 1: Start
+---
 
-Step 2: Declare arr[50], num, temp
+## 2️⃣ Sum and Average of Array
 
-Step 3: Input number of elements → num
+**Algorithm:**
 
-Step 4: Input num elements into arr
+**Step 1:** Start  
+**Step 2:** Declare `arr[100]`, `sum = 0`, `average`  
+**Step 3:** Input number of elements → `n`  
+**Step 4:** Input `n` elements into `arr`  
+**Step 5:** For `i = 0` to `n - 1`:  
+  a. `sum = sum + arr[i]`  
+**Step 6:** Calculate `average = sum / n`  
+**Step 7:** Print `sum` and `average`  
+**Step 8:** Stop  
 
-Step 5: Print the original array
+---
 
-Step 6: Set i = 0, j = num - 1
+## 3️⃣ Reverse a String
 
-Step 7: While i < j:
+**Algorithm:**
 
-  a. Swap arr[i] and arr[j] using temp
-  
-  b. Increment i and decrement j
-  
-Step 8: Print the reversed array
+**Step 1:** Start  
+**Step 2:** Declare two string variables: `str` and `reversed`  
+**Step 3:** Input a string into `str`  
+**Step 4:** Find the length of `str` → `n`  
+**Step 5:** For `i = n - 1` down to `0`:  
+  a. Append `str[i]` to `reversed`  
+**Step 6:** Print `reversed`  
+**Step 7:** End  
 
-Step 9: Stop
+---
 
+## 4️⃣ Check Palindrome String
 
+**Algorithm:**
 
-2. Sum and Average of Array
-   
-Algorithm:
-
-Step 1: Start
-
-Step 2: Declare arr[100], sum = 0, average
-
-Step 3: Input number of elements → n
-
-Step 4: Input n elements into arr
-
-Step 5: For i = 0 to n - 1:
-
-  a. sum = sum + arr[i]
-  
-Step 6: Calculate average = sum / n
-
-Step 7: Print sum and average
-
-Step 8: Stop
-
-
-
-3. Reverse a String
-   
-Algorithm:
-
-Step 1: Start
-
-Step 2: Declare two string variables: str and reversed
-
-Step 3: Input a string into str
-
-Step 4: Find the length of str → n
-
-Step 5: For i = n - 1 down to 0:
-
-  a. Append str[i] to reversed
-  
-Step 6: Print reversed
-
-Step 7: End
+**Step 1:** Start  
+**Step 2:** Declare a string `str` and integer `count = 0`  
+**Step 3:** Input a string into `str`  
+**Step 4:** Find the length of `str` → `n`  
+**Step 5:** For `i = 0` to `n / 2`:  
+  a. If `str[i] != str[n - 1 - i]`:  
+    i. Set `count = 1`  
+    ii. Break the loop  
+**Step 6:** If `count == 0`:  
+  a. Print `"String is a palindrome"`  
+  Else:  
+  b. Print `"String is not a palindrome"`  
+**Step 7:** End  
 
 
 
 
-4. Check Palindrome String
-   
-Algorithm:
-
-Step 1: Start
-
-Step 2: Declare a string str and integer count = 0
-
-Step 3: Input a string into str
-
-Step 4: Find the length of str → n
-
-Step 5: For i = 0 to n / 2:
-
-  a. If str[i] != str[n - 1 - i]:
-  
-    i. Set count = 1
-    
-    ii. Break the loop
-    
-Step 6: If count == 0:
-
-  a. Print "String is a palindrome"
-  
-  Else:
-  
-  b. Print "String is not a palindrome"
-  
-Step 7: End
 
 
 
