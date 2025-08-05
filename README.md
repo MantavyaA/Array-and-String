@@ -145,6 +145,15 @@ A **string** is a sequence of characters used to represent textual data.
   b. Print `"String is not a palindrome"`  
 **Step 7:** End  
 
+---
+
+## 📌 Conclusion
+
+These algorithms demonstrate the fundamental operations on **arrays** and **strings** in C++.  
+- **Array algorithms** like reversing and finding sum/average help in mastering traversal, indexing, and basic manipulation.  
+- **String algorithms** like reversing and palindrome checking strengthen understanding of character indexing and conditional logic.  
+
+ 
 
 
 
