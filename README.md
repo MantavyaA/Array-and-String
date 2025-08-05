@@ -6,6 +6,7 @@ SOFTWARE USED : VS CODE
 
 THEORY : 
 
+
 Arrays in C++
 
 An array is a data structure used to store multiple values of the same data type in contiguous memory locations. Arrays are useful for managing large amounts of data efficiently under a single variable name. The size of an array is fixed and must be known at compile time. Each element in an array is identified by its index, which starts from zero and goes up to size minus one.
@@ -15,6 +16,9 @@ Arrays allow random access to any element using its index. They are suitable for
 Although arrays offer fast access and modification, their fixed size can lead to wasted memory or lack of flexibility. To overcome this, dynamic memory allocation can be used with pointers. Arrays in C++ do not perform bounds checking, so accessing out-of-range elements can lead to undefined behavior.
 
 Operations on arrays include traversal, insertion, deletion, searching, and sorting. These operations often require looping structures like for or while. Arrays are also used in more complex data structures like matrices, vectors, stacks, and queues.
+
+
+
 
 Strings in C++
 
