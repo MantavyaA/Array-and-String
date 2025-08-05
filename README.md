@@ -32,15 +32,15 @@ Multi-Dimensional → Higher-order structures.
 
 🔹 Advantages
 
-✅ Fast access and modification.
+1. Fast access and modification.
 
-✅ Simple to use for fixed-size data storage.
+2. Simple to use for fixed-size data storage.
 
 🔹 Limitations
 
-❌ Fixed size can lead to wasted memory or insufficient space.
+1. Fixed size can lead to wasted memory or insufficient space.
 
-❌ No bounds checking → Accessing out-of-range elements causes undefined behavior.
+2. No bounds checking → Accessing out-of-range elements causes undefined behavior.
 
 🔹 Common Operations
 
@@ -62,14 +62,18 @@ Vectors
 
 Stacks & Queues
 
-✨ STRINGS IN C++
+
+
+ STRINGS IN C++
 
 Definition:
 
 A string is a sequence of characters used to represent textual data.
 
 🔹 Types of Strings in C++
+
 1️⃣ C-Style Strings (Character Arrays)
+
 Implemented as an array of characters ending with a null character \0.
 
 Functions from the C library handle operations (strlen, strcpy, strcmp, etc.).
@@ -79,6 +83,7 @@ Require manual size management.
 Less safe compared to modern C++ strings.
 
 2️⃣ string Class (STL)
+
 Part of the Standard Template Library.
 
 Supports dynamic resizing and automatic memory management.
@@ -98,9 +103,12 @@ Supports operator overloading for intuitive usage.
 Works easily with cin and cout.
 
 🔹 Advantages of string Class
-✅ No manual memory management.
-✅ Flexible and safer than C-style strings.
-✅ Improves readability and maintainability.
+
+1. No manual memory management.
+
+2.  Flexible and safer than C-style strings.
+
+3. Improves readability and maintainability.
 
 
 
