@@ -76,8 +76,11 @@ Step 8: End
 5. Algorithm to Check Palindrome String
    
 Step 1: Start
+
 Step 2: Declare a string variable str and an integer variable count
+
 Step 3: Input a string from the user and store it in str
+
 Step 4: Find the length of the string and store it in variable n
 Step 5: Run a loop from i = 0 to n / 2
 Step 6: In each iteration, compare str[i] with str[n - 1 - i]
