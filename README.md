@@ -7,7 +7,7 @@ SOFTWARE USED : VS CODE
 
 THEORY : 
 
-ARRAYS IN C++
+1. ARRAYS IN C++
 
 Definition:
 
@@ -65,7 +65,7 @@ Stacks & Queues
 
 
 
- STRINGS IN C++
+2. STRINGS IN C++
 
 Definition:
 
