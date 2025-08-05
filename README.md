@@ -32,62 +32,72 @@ Strings in C++ are mutable, meaning their contents can be modified after creatio
 ALGORITHMS : 
 
 1. Reverse the Array
-Algorithm:
-
-1. Start
-2. Declare arr[50], num, temp
-3. Input number of elements (num)
-4. Input num elements into arr
-5. Print original array
-6. Set i = 0, j = num - 1
-7. While i < j:
-      a. Swap arr[i] and arr[j] using temp
-      b. Increment i and decrement j
-8. Print reversed array
-9. Stop
-
-    
-2. Sum and Average of Array
-Algorithm:
-
-1. Start
-2. Declare arr[100], sum = 0, average
-3. Input number of elements (n)
-4. Input n elements into arr
-5. For i = 0 to n-1:
-      a. sum = sum + arr[i]
-6. average = sum / n
-7. Print sum and average
-8. Stop
-
-
-3. Algorithm to Reverse a String
    
+Algorithm:
+
+Step 1: Start
+Step 2: Declare arr[50], num, temp
+Step 3: Input number of elements → num
+Step 4: Input num elements into arr
+Step 5: Print the original array
+Step 6: Set i = 0, j = num - 1
+Step 7: While i < j:
+  a. Swap arr[i] and arr[j] using temp
+  b. Increment i and decrement j
+Step 8: Print the reversed array
+Step 9: Stop
+
+
+
+2. Sum and Average of Array
+   
+Algorithm:
+
+Step 1: Start
+Step 2: Declare arr[100], sum = 0, average
+Step 3: Input number of elements → n
+Step 4: Input n elements into arr
+Step 5: For i = 0 to n - 1:
+  a. sum = sum + arr[i]
+Step 6: Calculate average = sum / n
+Step 7: Print sum and average
+Step 8: Stop
+
+
+
+3. Reverse a String
+   
+Algorithm:
+
 Step 1: Start
 Step 2: Declare two string variables: str and reversed
-Step 3: Input a string from the user and store it in str
-Step 4: Find the length of the string and store it in variable n
-Step 5: Run a loop from i = n - 1 down to 0
-Step 6: In each iteration, append str[i] to the reversed string
-Step 7: After the loop ends, print the reversed string
-Step 8: End
+Step 3: Input a string into str
+Step 4: Find the length of str → n
+Step 5: For i = n - 1 down to 0:
+  a. Append str[i] to reversed
+Step 6: Print reversed
+Step 7: End
 
 
-5. Algorithm to Check Palindrome String
+
+
+4. Check Palindrome String
    
+Algorithm:
+
 Step 1: Start
+Step 2: Declare a string str and integer count = 0
+Step 3: Input a string into str
+Step 4: Find the length of str → n
+Step 5: For i = 0 to n / 2:
+  a. If str[i] != str[n - 1 - i]:
+    i. Set count = 1
+    ii. Break the loop
+Step 6: If count == 0:
+  a. Print "String is a palindrome"
+  Else:
+  b. Print "String is not a palindrome"
+Step 7: End
 
-Step 2: Declare a string variable str and an integer variable count
-
-Step 3: Input a string from the user and store it in str
-
-Step 4: Find the length of the string and store it in variable n
-Step 5: Run a loop from i = 0 to n / 2
-Step 6: In each iteration, compare str[i] with str[n - 1 - i]
-Step 7: If both characters are not equal, set count = 1 and break the loop
-Step 8: After the loop, check the value of count
-If count == 0, print that the string is a palindrome
-Else, print that it is not a palindrome
-Step 9: End
 
 
