@@ -6,31 +6,102 @@ SOFTWARE USED : VS CODE
 
 THEORY : 
 
+ARRAYS IN C++
 
-Arrays in C++
+Definition:
 
-An array is a data structure used to store multiple values of the same data type in contiguous memory locations. Arrays are useful for managing large amounts of data efficiently under a single variable name. The size of an array is fixed and must be known at compile time. Each element in an array is identified by its index, which starts from zero and goes up to size minus one.
+An array is a data structure that stores multiple values of the same data type in contiguous memory locations.
 
-Arrays allow random access to any element using its index. They are suitable for storing homogeneous data like numbers, characters, or any user-defined data types. Arrays can be one-dimensional (linear data), two-dimensional (matrix-like structure), or multi-dimensional.
+🔹 Key Points
 
-Although arrays offer fast access and modification, their fixed size can lead to wasted memory or lack of flexibility. To overcome this, dynamic memory allocation can be used with pointers. Arrays in C++ do not perform bounds checking, so accessing out-of-range elements can lead to undefined behavior.
+Stores homogeneous data (all elements of the same type).
 
-Operations on arrays include traversal, insertion, deletion, searching, and sorting. These operations often require looping structures like for or while. Arrays are also used in more complex data structures like matrices, vectors, stacks, and queues.
+Fixed size – must be known at compile time.
 
+Elements are accessed by an index (starting from 0 to size - 1).
 
+Allows random access to any element using its index.
 
+🔹 Types of Arrays
 
-Strings in C++
+One-Dimensional → Linear data storage.
 
-Strings are sequences of characters used to represent textual data. In C++, strings can be implemented either as character arrays (C-style strings) or using the string class from the Standard Template Library.
+Two-Dimensional → Matrix-like structure.
 
-C-style strings are arrays of characters ending with a null character (\0). These strings are handled using functions from the C library like strlen, strcpy, strcmp, etc. They are less safe and require manual management of size and termination.
+Multi-Dimensional → Higher-order structures.
 
-The string class in C++ provides a more convenient and safe way to handle strings. It allows dynamic resizing, automatic memory management, and built-in functions for common operations such as concatenation, comparison, substring extraction, and character access.
+🔹 Advantages
 
-C++ strings support operator overloading, allowing intuitive usage like using + for concatenation or == for comparison. They also support input and output operations using cin and cout.
+✅ Fast access and modification.
 
-Strings in C++ are mutable, meaning their contents can be modified after creation. The string class hides low-level memory management, making it suitable for modern C++ programming. It improves readability, maintainability, and reduces the chances of errors compared to C-style strings.
+✅ Simple to use for fixed-size data storage.
+
+🔹 Limitations
+
+❌ Fixed size can lead to wasted memory or insufficient space.
+
+❌ No bounds checking → Accessing out-of-range elements causes undefined behavior.
+
+🔹 Common Operations
+
+Traversal – Visiting each element.
+
+Insertion – Adding elements at specific positions.
+
+Deletion – Removing elements.
+
+Searching – Finding an element (linear/binary search).
+
+Sorting – Arranging in ascending/descending order.
+
+🔹 Usage in Advanced Structures
+
+Matrices
+
+Vectors
+
+Stacks & Queues
+
+✨ STRINGS IN C++
+
+Definition:
+
+A string is a sequence of characters used to represent textual data.
+
+🔹 Types of Strings in C++
+1️⃣ C-Style Strings (Character Arrays)
+Implemented as an array of characters ending with a null character \0.
+
+Functions from the C library handle operations (strlen, strcpy, strcmp, etc.).
+
+Require manual size management.
+
+Less safe compared to modern C++ strings.
+
+2️⃣ string Class (STL)
+Part of the Standard Template Library.
+
+Supports dynamic resizing and automatic memory management.
+
+Provides built-in functions for:
+
+Concatenation (+)
+
+Comparison (==)
+
+Substring extraction (substr())
+
+Character access (at() / [])
+
+Supports operator overloading for intuitive usage.
+
+Works easily with cin and cout.
+
+🔹 Advantages of string Class
+✅ No manual memory management.
+✅ Flexible and safer than C-style strings.
+✅ Improves readability and maintainability.
+
 
 
 
