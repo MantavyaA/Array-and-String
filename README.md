@@ -36,15 +36,23 @@ ALGORITHMS :
 Algorithm:
 
 Step 1: Start
+
 Step 2: Declare arr[50], num, temp
+
 Step 3: Input number of elements → num
+
 Step 4: Input num elements into arr
+
 Step 5: Print the original array
+
 Step 6: Set i = 0, j = num - 1
+
 Step 7: While i < j:
   a. Swap arr[i] and arr[j] using temp
   b. Increment i and decrement j
+  
 Step 8: Print the reversed array
+
 Step 9: Stop
 
 
